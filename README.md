@@ -13,6 +13,22 @@ A versão da IDE usada neste codigo foi a v0.2.5
 [modo de instalação](https://wiki.sipeed.com/soft/maixpy/en/get_started/install_driver/duino.html)
 
 ## inserindo o modelo na placa
+para inserir um modelo na placa foi utilizado um arquivo kfpkg que é o kmodel com um json no formato: 
+```
+  "version": "0.1.0",
+  "files": [
+    {
+      "address": 0x00300000,
+      "bin": "m.kmodel",
+      "sha256Prefix": false
+    }
+  ]
+}
+```
+que serve pra indicar em que endereço de memória será armazenado o modelo 
+mais informações sobre como funciona o armazenamento e memória da placa esta disponivel nesse [link](https://wiki.sipeed.com/soft/maixpy/en/get_started/get_started_fs.html)
+
+para inserir esse modelo na placa foi utilizado kflash_gui
 
 
 
