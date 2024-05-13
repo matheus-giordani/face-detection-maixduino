@@ -1,4 +1,4 @@
-# face-datection-maixduino
+# face-detection-maixduino
 
 ## Ambiente de desenvolvimento
 O maixduino oferece uma IDE própia para o desenvolvimento com suas placas, mas é possivel usar a IDE do arduino.
